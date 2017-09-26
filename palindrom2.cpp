@@ -34,7 +34,7 @@ int main()
 
 	for (h1 = 0; h1 < i2; h1++)
 	{
-		if ((g = str3.at(h1) < 97) && (g = str3.at(h1) > 64))
+		if ((g = str3.at(h1) < 90) && (g = str3.at(h1) > 64))
 		{
 			g = str3.at(h1);
 			y = int(g) + 32;
