@@ -14,7 +14,7 @@ int main()
 
 
 
-	i1 = size(str1);
+	i1 = str1.length();
 	str3 = str1;
 
 
@@ -30,7 +30,7 @@ int main()
 
 	str3.erase(h2, i1 - 1);
 
-	i2 = size(str3);
+		i2 = str3.length();
 
 	for (h1 = 0; h1 < i2; h1++)
 	{
