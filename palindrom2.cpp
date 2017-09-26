@@ -28,7 +28,7 @@ int main()
 	}
 
 
-	str3.erase(h2, i1 - 1);
+	if (h2!=0){str3.erase(h2, i1 - 1);}
 
 		i2 = str3.length();
 
